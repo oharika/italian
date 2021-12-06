@@ -1,0 +1,471 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  /*font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;*/
+font-style: normal;
+font-weight: 500;
+background-color: antiquewhite;
+	margin: 0;
+}
+
+/*ヘッダーここから*/
+
+.header {
+	/*background-color: rgb(66, 204, 63);*/
+	/*position: fixed;*/
+	z-index: 10000;
+	width: 100%;
+}
+
+.header-inner {
+	display: flex;
+	
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	width: 90%;
+	/*margin: 0 auto;*/
+}
+
+.header-logo img {
+	width: 60%;
+}
+
+.header-menu {
+	list-style-type: none;
+	width: 500px;
+}
+
+.header-menu li {
+	display: inline;
+	padding-left: 20px;
+}
+
+.header-menu li a {
+	text-decoration: none;
+	font-size: 24px;
+	color: #2B2A2A;
+}
+
+#menu-btn-check {
+	display: none;
+}
+
+/*ヘッダーここまで*/
+
+/*スライダーここから*/
+
+/*スライダーここまで*/
+
+
+/*メニューここから*/
+.content-inner {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	position:  relative;    /* 位置調整 */
+    font-weight:  normal;   /* 文字の太さ調整 */
+	margin-top: 30px;
+    margin-bottom: 30px;    /* 周りの余白指定 */
+    border-bottom: solid 4px rgba(76, 175, 80, 0.6);        /* 線指定 */
+    border-radius: 0px 0px 160px 180px/0px 0px 20px 4px;    /* 角丸指定 */
+}
+
+.title-h2 {
+	font-family: 'Hina Mincho', serif ;
+	padding-left: 10px;
+	font-weight: bold;
+	border-left: 5px solid #009900;
+}
+
+.course-menu {
+	
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.course-menu-image {
+	display: inline-block;
+	width: 50%;
+}
+.course-menu-desc {
+	background-image: url("images/crello-266310242-stock-photo-fresh-olives-green-leaves-isolated.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color: rgba(250,235,215,0.5);
+	background-blend-mode: lighten;
+	display: inline-block;
+	font-family: 'Hina Mincho', serif ;
+	text-align: center;
+	width: 50%;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 40px;
+	padding: 100px 0;
+}
+
+.ippin-menu {
+	display: flex;
+	width: 100%;
+}
+
+.ippin-menu-content {
+	width: 33%;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.ippin-menu-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+.ippin-menu-content p {
+	font-family: 'Hina Mincho', serif ;
+	margin-bottom: 10px;
+}
+
+/*メニューここまで*/
+
+/*ニュースここから*/
+.news {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.news ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.news-info {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.news-date {
+	/*display: inline-block;*/
+	width: 15%;
+	
+}
+
+.label {
+	/*display: inline-block;*/
+	width: 15%;
+	margin: 0px 50px;
+	padding: 5px 10px;
+	background-color: #ea5549;
+	border-radius: 10px;
+	color: antiquewhite;
+	font-weight: bold;
+	text-align: center;
+}
+
+.news-text a {
+	/*display: inline-block;*/
+	width: 70%;
+	font-family: 'Hina Mincho', serif ;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+/*ニュースここまで*/
+
+/*コンタクトここから*/
+form div {
+	padding-left: 0px;
+	margin: 30px 0px;
+	font-size: 20px;
+}
+
+input.submit {
+	display: block;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	float: left;
+	width: 270px;
+	font-weight: bold;
+	font-family: 'Hina Mincho', serif ;
+}
+
+.contact label span {
+	background: #ea5549;
+	padding: 5px 5px;
+	font-size: 20px;
+	color: antiquewhite;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.text, textarea, .dropdown {
+	border: 0px;
+	padding: 15px;
+	color: black;
+	background: #fff;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 3px 2px #c0c0c0;
+	-moz-box-shadow: 2px 3px 2px #c0c0c0;	
+}
+
+.submit {
+	font-size: 20px;
+	border: none;
+	color: #FFFFFF;
+	display: block;
+	margin: 0 200px;
+	text-align: center;
+	background: #009900;
+	padding: 10px 70px;
+	border-radius: 17px;
+	cursor: pointer;
+	/*Webkit*/
+	-webkit-border-radius: 17px;
+	-webkit-box-shadow: 2px 3px 2px #c0c0c0;
+	/*Firefox*/
+	-moz-border-radius: 17px;
+	-moz-box-shadow: 2px 3px 2px #c0c0c0;
+}
+/*コンタクトここまで*/
+
+/*店舗情報ここから*/
+
+.about-restaurant {
+	padding-left: 0px;
+	/*display: flex;*/
+	width: 100%;
+}
+
+/*.restaurant {
+	width: 50%;
+}*/
+.restaurant-info-desc {
+	font-family: 'Hina Mincho', serif ;
+	font-size: 20px;
+	display: block;
+}
+
+.restaurant-info-desc p a {
+	font-family: 'Hina Mincho', serif ;
+	font-size: bold;
+	background: #fff;
+	padding: 10px 30px;
+	border-radius: 20px 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.google-map {
+	margin-right: 10px;
+}
+.google-map iframe {
+	width: 100%;
+}
+
+
+/*店舗情報ここまで*/
+
+/*フッターここから*/
+footer {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	border-top: 1px solid #A09D9D;
+}
+/*フッターここまで*/
+
+/*レスポンシブここから*/
+@media screen and (max-width: 559px) {
+	
+	.header {
+		width: 100%;
+		height: auto;
+	}
+	.header-inner {
+		flex-direction: column;
+	}
+	
+	.header-logo img {
+		width: 72%;
+	}
+	
+	.menu-btn {
+		position: fixed;
+		top:10px;
+		right: 10px;
+		display: flex;
+		height: 60px;
+		width: 60px;
+		justify-content: center;
+		align-items: center;
+		z-index: 90;
+		background-color: #003300;
+	}
+	
+	.menu-btn span, .menu-btn span:before, .menu-btn span:after {
+		content: '';
+		display: block;
+		height: 3px;
+		width: 25px;
+		border-radius: 3px;
+		background-color: #ffffff;
+		position: absolute;
+	}
+	
+	.menu-btn span:before{
+		bottom: 8px;
+	}
+	
+	.menu-btn span:after {
+		top: 8px;
+	}
+	
+	#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+	
+	#menu-btn-check:checked ~ .menu-btn span::before {
+		bottom: 0;
+		transform: rotate(45deg);
+	}
+	
+	#menu-btn-check:checked ~ .menu-btn span::after {
+		top: 0;
+		transform: rotate(-45deg)
+	}
+	
+	.header-menu-content {
+		width: 100%;
+		height: auto;
+		position: fixed;
+		top: 0;
+		left: 100%;
+		z-index: 40;
+		background-color: rgba(0, 51, 0, 0.7);
+		transition: all 0.5s;
+	}
+	
+	.header-menu {
+		padding: 70px 10px 0;
+	}
+	
+	.header-menu li {
+		border-bottom: solid 1px #fff;
+		list-style-type: none;
+	}
+	
+	.header-menu li a {
+		display: block;
+		width: 100%;
+		font-size: 15px;
+		box-sizing: border-box;
+		color: #fff;
+		text-decoration: none;
+		padding: 9px 15px 10px 0;
+		position: relative;
+	}
+	
+	.header-menu li a::before {
+		content: "";
+		width: 7px;
+		height: 7px;
+		border-top: solid 2px #fff;
+		border-right: solid 2px #fff;
+		transform: rotate(45deg);
+		position: absolute;
+		right: 11px;
+		top: 16px;
+	}
+	
+	#menu-btn-check:checked ~ .header-menu-content {
+		left: 0;
+	}
+	
+	.course-menu {
+		display: block;
+	}
+	
+	.course-menu-image {
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.course-menu-desc {
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.ippin-menu {
+		display: block;
+	}
+	
+	.ippin-menu-content {
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.ippin-menu-content img {
+    max-width: 100%;
+    height: auto;
+}
+	
+	.news-info {
+		display: block;
+	}
+	
+	.news-date, .label {
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.label {
+		margin: 0px 0px;
+		padding: 0px 0px;
+	}
+	.news-text  {
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.text, .dropdown {
+		width: 100%;
+		padding: 0px;
+		height: 32px;
+	}
+	
+	textarea {
+		width: 100%;
+		padding: 0px;
+	}
+	
+	.about-restaurant {
+		display: block;
+	}
+	
+	.restaurant, .sns {
+		display: inline-block;
+		width: 100%;
+	}
+	
+	.google-map {
+		display: block;
+		width: 100%;
+	}
+	.sns-icon {
+		display: block;
+		width: 100%;
+	}
+	}
+/*レスポンシブここまで*/
